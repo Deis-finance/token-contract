@@ -1,7 +1,5 @@
 const { ethers, network } = hre
 
-console.log(ethers); // check if ethers is defined
-console.log(network);
 
 const main = async () => {
     const accounts = await ethers.getSigners()
