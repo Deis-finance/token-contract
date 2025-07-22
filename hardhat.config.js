@@ -1,8 +1,6 @@
 require('dotenv').config()
-require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-network-helpers");
+require("@nomicfoundation/hardhat-ethers");
 
-//
 
 module.exports = {
   defaultNetwork: "hardhat",
